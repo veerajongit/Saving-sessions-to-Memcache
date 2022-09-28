@@ -1,0 +1,801 @@
+2022/09/27 09:14:11 [notice] 1#1: using the "epoll" event method
+2022/09/27 09:14:11 [notice] 1#1: nginx/1.23.1
+2022/09/27 09:14:11 [notice] 1#1: built by gcc 11.2.1 20220219 (Alpine 11.2.1_git20220219) 
+2022/09/27 09:14:11 [notice] 1#1: OS: Linux 5.10.124-linuxkit
+2022/09/27 09:14:11 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/09/27 09:14:11 [notice] 1#1: start worker processes
+2022/09/27 09:14:11 [notice] 1#1: start worker process 31
+2022/09/27 09:14:11 [notice] 1#1: start worker process 32
+2022/09/27 09:14:11 [notice] 1#1: start worker process 33
+2022/09/27 09:14:11 [notice] 1#1: start worker process 34
+2022/09/27 09:14:51 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/09/27 09:14:51 [notice] 31#31: gracefully shutting down
+2022/09/27 09:14:51 [notice] 31#31: exiting
+2022/09/27 09:14:51 [notice] 32#32: gracefully shutting down
+2022/09/27 09:14:51 [notice] 34#34: gracefully shutting down
+2022/09/27 09:14:51 [notice] 33#33: gracefully shutting down
+2022/09/27 09:14:51 [notice] 31#31: exit
+2022/09/27 09:14:51 [notice] 32#32: exiting
+2022/09/27 09:14:51 [notice] 34#34: exiting
+2022/09/27 09:14:51 [notice] 34#34: exit
+2022/09/27 09:14:51 [notice] 33#33: exiting
+2022/09/27 09:14:51 [notice] 32#32: exit
+2022/09/27 09:14:51 [notice] 33#33: exit
+2022/09/27 09:14:51 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/09/27 09:14:51 [notice] 1#1: worker process 31 exited with code 0
+2022/09/27 09:14:51 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/27 09:14:51 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/09/27 09:14:51 [notice] 1#1: worker process 33 exited with code 0
+2022/09/27 09:14:51 [notice] 1#1: worker process 32 exited with code 0
+2022/09/27 09:14:51 [notice] 1#1: worker process 34 exited with code 0
+2022/09/27 09:14:51 [notice] 1#1: exit
+2022/09/27 09:15:54 [notice] 1#1: using the "epoll" event method
+2022/09/27 09:15:54 [notice] 1#1: nginx/1.23.1
+2022/09/27 09:15:54 [notice] 1#1: built by gcc 11.2.1 20220219 (Alpine 11.2.1_git20220219) 
+2022/09/27 09:15:54 [notice] 1#1: OS: Linux 5.10.124-linuxkit
+2022/09/27 09:15:54 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/09/27 09:15:54 [notice] 1#1: start worker processes
+2022/09/27 09:15:54 [notice] 1#1: start worker process 31
+2022/09/27 09:15:54 [notice] 1#1: start worker process 32
+2022/09/27 09:15:54 [notice] 1#1: start worker process 33
+2022/09/27 09:15:54 [notice] 1#1: start worker process 34
+2022/09/27 09:16:30 [error] 31#31: *1 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.20.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 09:19:35 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/09/27 09:19:35 [notice] 32#32: gracefully shutting down
+2022/09/27 09:19:35 [notice] 33#33: gracefully shutting down
+2022/09/27 09:19:35 [notice] 31#31: gracefully shutting down
+2022/09/27 09:19:35 [notice] 34#34: gracefully shutting down
+2022/09/27 09:19:35 [notice] 32#32: exiting
+2022/09/27 09:19:35 [notice] 33#33: exiting
+2022/09/27 09:19:35 [notice] 31#31: exiting
+2022/09/27 09:19:35 [notice] 34#34: exiting
+2022/09/27 09:19:35 [notice] 32#32: exit
+2022/09/27 09:19:35 [notice] 33#33: exit
+2022/09/27 09:19:35 [notice] 31#31: exit
+2022/09/27 09:19:35 [notice] 34#34: exit
+2022/09/27 09:19:35 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/09/27 09:19:35 [notice] 1#1: worker process 34 exited with code 0
+2022/09/27 09:19:35 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/27 09:19:35 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/09/27 09:19:35 [notice] 1#1: worker process 31 exited with code 0
+2022/09/27 09:19:35 [notice] 1#1: worker process 32 exited with code 0
+2022/09/27 09:19:35 [notice] 1#1: worker process 33 exited with code 0
+2022/09/27 09:19:35 [notice] 1#1: exit
+2022/09/27 09:20:34 [notice] 1#1: using the "epoll" event method
+2022/09/27 09:20:34 [notice] 1#1: nginx/1.23.1
+2022/09/27 09:20:34 [notice] 1#1: built by gcc 11.2.1 20220219 (Alpine 11.2.1_git20220219) 
+2022/09/27 09:20:34 [notice] 1#1: OS: Linux 5.10.124-linuxkit
+2022/09/27 09:20:34 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/09/27 09:20:34 [notice] 1#1: start worker processes
+2022/09/27 09:20:34 [notice] 1#1: start worker process 31
+2022/09/27 09:20:34 [notice] 1#1: start worker process 32
+2022/09/27 09:20:34 [notice] 1#1: start worker process 33
+2022/09/27 09:20:34 [notice] 1#1: start worker process 34
+2022/09/27 09:20:46 [error] 31#31: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.21.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.21.0.2:9000", host: "localhost:8080"
+2022/09/27 09:20:47 [error] 31#31: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.21.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.21.0.2:9000", host: "localhost:8080"
+2022/09/27 09:20:48 [error] 31#31: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.21.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.21.0.2:9000", host: "localhost:8080"
+2022/09/27 09:20:55 [error] 31#31: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.21.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.21.0.2:9000", host: "localhost:8080"
+2022/09/27 09:23:09 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/09/27 09:23:09 [notice] 32#32: gracefully shutting down
+2022/09/27 09:23:09 [notice] 33#33: gracefully shutting down
+2022/09/27 09:23:09 [notice] 31#31: gracefully shutting down
+2022/09/27 09:23:09 [notice] 34#34: gracefully shutting down
+2022/09/27 09:23:09 [notice] 32#32: exiting
+2022/09/27 09:23:09 [notice] 33#33: exiting
+2022/09/27 09:23:09 [notice] 31#31: exiting
+2022/09/27 09:23:09 [notice] 34#34: exiting
+2022/09/27 09:23:09 [notice] 34#34: exit
+2022/09/27 09:23:09 [notice] 32#32: exit
+2022/09/27 09:23:09 [notice] 33#33: exit
+2022/09/27 09:23:09 [notice] 31#31: exit
+2022/09/27 09:23:09 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/09/27 09:23:09 [notice] 1#1: worker process 32 exited with code 0
+2022/09/27 09:23:09 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/27 09:23:09 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/09/27 09:23:09 [notice] 1#1: worker process 31 exited with code 0
+2022/09/27 09:23:09 [notice] 1#1: worker process 33 exited with code 0
+2022/09/27 09:23:09 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/27 09:23:09 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/09/27 09:23:09 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/09/27 09:23:09 [notice] 1#1: worker process 34 exited with code 0
+2022/09/27 09:23:09 [notice] 1#1: exit
+2022/09/27 09:23:34 [notice] 1#1: using the "epoll" event method
+2022/09/27 09:23:34 [notice] 1#1: nginx/1.23.1
+2022/09/27 09:23:34 [notice] 1#1: built by gcc 11.2.1 20220219 (Alpine 11.2.1_git20220219) 
+2022/09/27 09:23:34 [notice] 1#1: OS: Linux 5.10.124-linuxkit
+2022/09/27 09:23:34 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/09/27 09:23:34 [notice] 1#1: start worker processes
+2022/09/27 09:23:34 [notice] 1#1: start worker process 32
+2022/09/27 09:23:34 [notice] 1#1: start worker process 33
+2022/09/27 09:23:34 [notice] 1#1: start worker process 34
+2022/09/27 09:23:34 [notice] 1#1: start worker process 35
+2022/09/27 09:23:44 [error] 32#32: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.22.0.2:9000", host: "localhost:8080"
+2022/09/27 09:23:45 [error] 32#32: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.22.0.2:9000", host: "localhost:8080"
+2022/09/27 09:24:57 [error] 33#33: *7 connect() failed (113: Host is unreachable) while connecting to upstream, client: 172.22.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.22.0.2:9000", host: "localhost:8080"
+2022/09/27 09:25:04 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/09/27 09:25:04 [notice] 33#33: gracefully shutting down
+2022/09/27 09:25:04 [notice] 32#32: gracefully shutting down
+2022/09/27 09:25:04 [notice] 34#34: gracefully shutting down
+2022/09/27 09:25:04 [notice] 35#35: gracefully shutting down
+2022/09/27 09:25:04 [notice] 33#33: exiting
+2022/09/27 09:25:04 [notice] 32#32: exiting
+2022/09/27 09:25:04 [notice] 32#32: exit
+2022/09/27 09:25:04 [notice] 35#35: exiting
+2022/09/27 09:25:04 [notice] 33#33: exit
+2022/09/27 09:25:04 [notice] 35#35: exit
+2022/09/27 09:25:04 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/09/27 09:25:04 [notice] 1#1: worker process 33 exited with code 0
+2022/09/27 09:25:04 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/27 09:25:04 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/09/27 09:25:04 [notice] 1#1: worker process 32 exited with code 0
+2022/09/27 09:25:04 [notice] 1#1: worker process 35 exited with code 0
+2022/09/27 09:25:04 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2022/09/27 09:25:04 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/27 09:27:20 [notice] 1#1: using the "epoll" event method
+2022/09/27 09:27:20 [notice] 1#1: nginx/1.23.1
+2022/09/27 09:27:20 [notice] 1#1: built by gcc 11.2.1 20220219 (Alpine 11.2.1_git20220219) 
+2022/09/27 09:27:20 [notice] 1#1: OS: Linux 5.10.124-linuxkit
+2022/09/27 09:27:20 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/09/27 09:27:20 [notice] 1#1: start worker processes
+2022/09/27 09:27:20 [notice] 1#1: start worker process 31
+2022/09/27 09:27:20 [notice] 1#1: start worker process 32
+2022/09/27 09:27:20 [notice] 1#1: start worker process 33
+2022/09/27 09:27:20 [notice] 1#1: start worker process 34
+2022/09/27 09:27:23 [error] 31#31: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.24.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.24.0.2:9000", host: "localhost:8080"
+2022/09/27 09:27:25 [error] 31#31: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.24.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.24.0.2:9000", host: "localhost:8080"
+2022/09/27 09:27:32 [error] 31#31: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.24.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.24.0.2:9000", host: "localhost:8080"
+2022/09/27 09:27:32 [error] 31#31: *2 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.24.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 09:27:32 [error] 31#31: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.24.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.24.0.2:9000", host: "localhost:8080"
+2022/09/27 09:27:32 [error] 31#31: *2 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.24.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 09:27:33 [error] 31#31: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.24.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.24.0.2:9000", host: "localhost:8080"
+2022/09/27 09:27:33 [error] 31#31: *2 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.24.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 09:27:33 [error] 31#31: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.24.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.24.0.2:9000", host: "localhost:8080"
+2022/09/27 09:27:33 [error] 31#31: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.24.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.24.0.2:9000", host: "localhost:8080"
+2022/09/27 09:27:45 [error] 31#31: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.24.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.24.0.2:9000", host: "localhost:8080"
+2022/09/27 09:27:46 [error] 31#31: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.24.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.24.0.2:9000", host: "localhost:8080"
+2022/09/27 09:35:05 [error] 33#33: *13 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.24.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 09:37:12 [error] 32#32: *17 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.24.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 09:37:12 [error] 32#32: *17 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.24.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 09:38:13 [error] 32#32: *17 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.24.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 09:38:13 [error] 32#32: *17 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.24.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 09:38:14 [error] 32#32: *17 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.24.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 09:38:56 [error] 32#32: *17 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.24.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 09:38:56 [error] 32#32: *17 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.24.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 09:38:56 [error] 32#32: *17 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.24.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 09:38:56 [error] 32#32: *17 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.24.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 09:38:56 [error] 32#32: *17 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.24.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 09:39:36 [error] 32#32: *17 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.24.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:12:51 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/09/27 11:12:51 [notice] 32#32: gracefully shutting down
+2022/09/27 11:12:51 [notice] 31#31: gracefully shutting down
+2022/09/27 11:12:51 [notice] 33#33: gracefully shutting down
+2022/09/27 11:12:51 [notice] 34#34: gracefully shutting down
+2022/09/27 11:12:51 [notice] 33#33: exiting
+2022/09/27 11:12:51 [notice] 32#32: exiting
+2022/09/27 11:12:51 [notice] 33#33: exit
+2022/09/27 11:12:51 [notice] 31#31: exiting
+2022/09/27 11:12:51 [notice] 34#34: exiting
+2022/09/27 11:12:51 [notice] 32#32: exit
+2022/09/27 11:12:51 [notice] 31#31: exit
+2022/09/27 11:12:51 [notice] 34#34: exit
+2022/09/27 11:12:51 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/09/27 11:12:51 [notice] 1#1: worker process 32 exited with code 0
+2022/09/27 11:12:51 [notice] 1#1: worker process 33 exited with code 0
+2022/09/27 11:12:51 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/27 11:12:51 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/09/27 11:12:51 [notice] 1#1: worker process 34 exited with code 0
+2022/09/27 11:12:51 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/27 11:12:51 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/09/27 11:12:51 [notice] 1#1: worker process 31 exited with code 0
+2022/09/27 11:12:51 [notice] 1#1: exit
+2022/09/27 11:13:16 [notice] 1#1: using the "epoll" event method
+2022/09/27 11:13:16 [notice] 1#1: nginx/1.23.1
+2022/09/27 11:13:16 [notice] 1#1: built by gcc 11.2.1 20220219 (Alpine 11.2.1_git20220219) 
+2022/09/27 11:13:16 [notice] 1#1: OS: Linux 5.10.124-linuxkit
+2022/09/27 11:13:16 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/09/27 11:13:16 [notice] 1#1: start worker processes
+2022/09/27 11:13:16 [notice] 1#1: start worker process 31
+2022/09/27 11:13:16 [notice] 1#1: start worker process 32
+2022/09/27 11:13:16 [notice] 1#1: start worker process 33
+2022/09/27 11:13:16 [notice] 1#1: start worker process 34
+2022/09/27 11:14:17 [error] 31#31: *1 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:14:18 [error] 31#31: *1 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:14:19 [error] 31#31: *1 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:14:19 [error] 31#31: *1 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:15:51 [error] 34#34: *7 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:15:53 [error] 34#34: *7 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:15:53 [error] 34#34: *7 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:15:53 [error] 34#34: *7 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:19:06 [error] 32#32: *13 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:19:06 [error] 32#32: *13 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:19:07 [error] 32#32: *13 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:19:07 [error] 32#32: *13 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:19:57 [error] 31#31: *14 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:19:57 [error] 32#32: *13 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:21:24 [error] 32#32: *21 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:21:25 [error] 32#32: *21 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:21:35 [error] 32#32: *21 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:22:54 [notice] 48#48: signal process started
+2022/09/27 11:22:54 [notice] 1#1: signal 1 (SIGHUP) received from 48, reconfiguring
+2022/09/27 11:22:54 [notice] 1#1: reconfiguring
+2022/09/27 11:22:54 [notice] 1#1: using the "epoll" event method
+2022/09/27 11:22:54 [notice] 1#1: start worker processes
+2022/09/27 11:22:54 [notice] 1#1: start worker process 49
+2022/09/27 11:22:54 [notice] 1#1: start worker process 50
+2022/09/27 11:22:54 [notice] 1#1: start worker process 51
+2022/09/27 11:22:54 [notice] 1#1: start worker process 52
+2022/09/27 11:22:54 [notice] 31#31: gracefully shutting down
+2022/09/27 11:22:54 [notice] 33#33: gracefully shutting down
+2022/09/27 11:22:54 [notice] 34#34: gracefully shutting down
+2022/09/27 11:22:54 [notice] 32#32: gracefully shutting down
+2022/09/27 11:22:54 [notice] 31#31: exiting
+2022/09/27 11:22:54 [notice] 33#33: exiting
+2022/09/27 11:22:54 [notice] 34#34: exiting
+2022/09/27 11:22:54 [notice] 34#34: exit
+2022/09/27 11:22:54 [notice] 32#32: exiting
+2022/09/27 11:22:54 [notice] 31#31: exit
+2022/09/27 11:22:54 [notice] 33#33: exit
+2022/09/27 11:22:54 [notice] 32#32: exit
+2022/09/27 11:22:54 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/09/27 11:22:54 [notice] 1#1: worker process 34 exited with code 0
+2022/09/27 11:22:54 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/27 11:22:54 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/09/27 11:22:54 [notice] 1#1: worker process 31 exited with code 0
+2022/09/27 11:22:54 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/27 11:22:54 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/09/27 11:22:54 [notice] 1#1: worker process 33 exited with code 0
+2022/09/27 11:22:54 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/27 11:22:54 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/09/27 11:22:54 [notice] 1#1: worker process 32 exited with code 0
+2022/09/27 11:22:54 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/27 11:23:01 [error] 50#50: *27 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:23:01 [error] 50#50: *27 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:23:01 [error] 50#50: *27 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:23:01 [error] 50#50: *27 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:23:24 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/09/27 11:23:24 [notice] 51#51: gracefully shutting down
+2022/09/27 11:23:24 [notice] 50#50: gracefully shutting down
+2022/09/27 11:23:24 [notice] 49#49: gracefully shutting down
+2022/09/27 11:23:24 [notice] 52#52: gracefully shutting down
+2022/09/27 11:23:24 [notice] 51#51: exiting
+2022/09/27 11:23:24 [notice] 50#50: exiting
+2022/09/27 11:23:24 [notice] 52#52: exiting
+2022/09/27 11:23:24 [notice] 51#51: exit
+2022/09/27 11:23:24 [notice] 50#50: exit
+2022/09/27 11:23:24 [notice] 52#52: exit
+2022/09/27 11:23:24 [notice] 1#1: signal 17 (SIGCHLD) received from 50
+2022/09/27 11:23:24 [notice] 1#1: worker process 50 exited with code 0
+2022/09/27 11:23:24 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/27 11:23:24 [notice] 1#1: signal 17 (SIGCHLD) received from 52
+2022/09/27 11:23:24 [notice] 1#1: worker process 52 exited with code 0
+2022/09/27 11:23:24 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/27 11:23:24 [notice] 1#1: signal 17 (SIGCHLD) received from 51
+2022/09/27 11:23:24 [notice] 1#1: worker process 51 exited with code 0
+2022/09/27 11:23:24 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/27 11:23:35 [notice] 1#1: using the "epoll" event method
+2022/09/27 11:23:35 [notice] 1#1: nginx/1.23.1
+2022/09/27 11:23:35 [notice] 1#1: built by gcc 11.2.1 20220219 (Alpine 11.2.1_git20220219) 
+2022/09/27 11:23:35 [notice] 1#1: OS: Linux 5.10.124-linuxkit
+2022/09/27 11:23:35 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/09/27 11:23:35 [notice] 1#1: start worker processes
+2022/09/27 11:23:35 [notice] 1#1: start worker process 31
+2022/09/27 11:23:35 [notice] 1#1: start worker process 32
+2022/09/27 11:23:35 [notice] 1#1: start worker process 33
+2022/09/27 11:23:35 [notice] 1#1: start worker process 34
+2022/09/27 11:25:39 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/09/27 11:25:39 [notice] 32#32: gracefully shutting down
+2022/09/27 11:25:39 [notice] 31#31: gracefully shutting down
+2022/09/27 11:25:39 [notice] 33#33: gracefully shutting down
+2022/09/27 11:25:39 [notice] 34#34: gracefully shutting down
+2022/09/27 11:25:39 [notice] 33#33: exiting
+2022/09/27 11:25:39 [notice] 32#32: exiting
+2022/09/27 11:25:39 [notice] 33#33: exit
+2022/09/27 11:25:39 [notice] 31#31: exiting
+2022/09/27 11:25:39 [notice] 32#32: exit
+2022/09/27 11:25:39 [notice] 31#31: exit
+2022/09/27 11:25:39 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/09/27 11:25:39 [notice] 1#1: worker process 32 exited with code 0
+2022/09/27 11:25:39 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/27 11:25:39 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/09/27 11:25:39 [notice] 1#1: worker process 33 exited with code 0
+2022/09/27 11:25:39 [notice] 1#1: worker process 31 exited with code 0
+2022/09/27 11:25:39 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/27 11:25:39 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/09/27 11:25:49 [notice] 1#1: using the "epoll" event method
+2022/09/27 11:25:49 [notice] 1#1: nginx/1.23.1
+2022/09/27 11:25:49 [notice] 1#1: built by gcc 11.2.1 20220219 (Alpine 11.2.1_git20220219) 
+2022/09/27 11:25:49 [notice] 1#1: OS: Linux 5.10.124-linuxkit
+2022/09/27 11:25:49 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/09/27 11:25:49 [notice] 1#1: start worker processes
+2022/09/27 11:25:49 [notice] 1#1: start worker process 31
+2022/09/27 11:25:49 [notice] 1#1: start worker process 32
+2022/09/27 11:25:49 [notice] 1#1: start worker process 33
+2022/09/27 11:25:49 [notice] 1#1: start worker process 34
+2022/09/27 11:28:07 [error] 31#31: *5 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:28:07 [error] 31#31: *5 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:34:50 [error] 34#34: *9 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:34:54 [error] 34#34: *9 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:34:54 [error] 34#34: *9 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:34:55 [error] 34#34: *9 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:34:55 [error] 34#34: *9 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:34:55 [error] 34#34: *9 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:34:55 [error] 34#34: *9 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:38:49 [error] 33#33: *18 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:38:50 [error] 33#33: *18 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:38:50 [error] 33#33: *18 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:40:08 [error] 33#33: *18 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:40:09 [error] 33#33: *18 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:41:25 [error] 32#32: *26 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:41:26 [error] 32#32: *26 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:41:26 [error] 32#32: *26 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:41:26 [error] 32#32: *26 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:41:33 [error] 32#32: *26 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:41:54 [error] 32#32: *26 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:41:54 [error] 32#32: *26 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:41:55 [error] 32#32: *26 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:41:55 [error] 32#32: *26 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:42:13 [error] 32#32: *26 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:42:13 [error] 32#32: *26 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:42:13 [error] 32#32: *26 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:42:13 [error] 32#32: *26 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:42:14 [error] 32#32: *26 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:42:14 [error] 32#32: *26 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:42:48 [error] 32#32: *26 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:42:49 [error] 32#32: *43 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:42:49 [error] 32#32: *26 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:42:49 [error] 32#32: *43 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:42:49 [error] 32#32: *43 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:42:49 [error] 32#32: *26 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:43:26 [error] 32#32: *26 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:43:27 [error] 32#32: *26 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:43:27 [error] 32#32: *26 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:43:27 [error] 32#32: *26 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:43:27 [error] 32#32: *26 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:43:27 [error] 32#32: *26 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:43:27 [error] 32#32: *26 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:43:28 [error] 32#32: *26 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:45:56 [error] 33#33: *72 FastCGI sent in stderr: "PHP message: PHP Warning:  ini_set(): Cannot find save handler 'memcached' in /var/www/html/index.php on line 2" while reading response header from upstream, client: 172.26.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.26.0.2:9000", host: "localhost:8080"
+2022/09/27 11:45:56 [error] 33#33: *72 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:46:00 [error] 33#33: *72 FastCGI sent in stderr: "PHP message: PHP Warning:  ini_set(): Cannot find save handler 'memcached' in /var/www/html/index.php on line 2" while reading response header from upstream, client: 172.26.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.26.0.2:9000", host: "localhost:8080"
+2022/09/27 11:46:00 [error] 33#33: *72 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:46:00 [error] 33#33: *72 FastCGI sent in stderr: "PHP message: PHP Warning:  ini_set(): Cannot find save handler 'memcached' in /var/www/html/index.php on line 2" while reading response header from upstream, client: 172.26.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.26.0.2:9000", host: "localhost:8080"
+2022/09/27 11:46:00 [error] 33#33: *72 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:46:00 [error] 33#33: *72 FastCGI sent in stderr: "PHP message: PHP Warning:  ini_set(): Cannot find save handler 'memcached' in /var/www/html/index.php on line 2" while reading response header from upstream, client: 172.26.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.26.0.2:9000", host: "localhost:8080"
+2022/09/27 11:46:00 [error] 33#33: *72 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:46:00 [error] 33#33: *72 FastCGI sent in stderr: "PHP message: PHP Warning:  ini_set(): Cannot find save handler 'memcached' in /var/www/html/index.php on line 2" while reading response header from upstream, client: 172.26.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.26.0.2:9000", host: "localhost:8080"
+2022/09/27 11:46:00 [error] 33#33: *72 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:46:00 [error] 33#33: *72 FastCGI sent in stderr: "PHP message: PHP Warning:  ini_set(): Cannot find save handler 'memcached' in /var/www/html/index.php on line 2" while reading response header from upstream, client: 172.26.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.26.0.2:9000", host: "localhost:8080"
+2022/09/27 11:46:00 [error] 33#33: *72 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:46:01 [error] 33#33: *72 FastCGI sent in stderr: "PHP message: PHP Warning:  ini_set(): Cannot find save handler 'memcached' in /var/www/html/index.php on line 2" while reading response header from upstream, client: 172.26.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.26.0.2:9000", host: "localhost:8080"
+2022/09/27 11:46:02 [error] 33#33: *72 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:46:02 [error] 33#33: *72 FastCGI sent in stderr: "PHP message: PHP Warning:  ini_set(): Cannot find save handler 'memcached' in /var/www/html/index.php on line 2" while reading response header from upstream, client: 172.26.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.26.0.2:9000", host: "localhost:8080"
+2022/09/27 11:46:02 [error] 33#33: *72 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:46:03 [error] 33#33: *72 FastCGI sent in stderr: "PHP message: PHP Warning:  ini_set(): Cannot find save handler 'memcached' in /var/www/html/index.php on line 2" while reading response header from upstream, client: 172.26.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.26.0.2:9000", host: "localhost:8080"
+2022/09/27 11:46:03 [error] 33#33: *72 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:46:03 [error] 33#33: *72 FastCGI sent in stderr: "PHP message: PHP Warning:  ini_set(): Cannot find save handler 'memcached' in /var/www/html/index.php on line 2" while reading response header from upstream, client: 172.26.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.26.0.2:9000", host: "localhost:8080"
+2022/09/27 11:46:03 [error] 33#33: *72 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:46:04 [error] 33#33: *72 FastCGI sent in stderr: "PHP message: PHP Warning:  ini_set(): Cannot find save handler 'memcached' in /var/www/html/index.php on line 2" while reading response header from upstream, client: 172.26.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.26.0.2:9000", host: "localhost:8080"
+2022/09/27 11:46:04 [error] 33#33: *72 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:46:04 [error] 33#33: *72 FastCGI sent in stderr: "PHP message: PHP Warning:  ini_set(): Cannot find save handler 'memcached' in /var/www/html/index.php on line 2" while reading response header from upstream, client: 172.26.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.26.0.2:9000", host: "localhost:8080"
+2022/09/27 11:46:04 [error] 33#33: *72 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:46:04 [error] 33#33: *72 FastCGI sent in stderr: "PHP message: PHP Warning:  ini_set(): Cannot find save handler 'memcached' in /var/www/html/index.php on line 2" while reading response header from upstream, client: 172.26.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.26.0.2:9000", host: "localhost:8080"
+2022/09/27 11:46:04 [error] 33#33: *72 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:46:05 [error] 33#33: *72 FastCGI sent in stderr: "PHP message: PHP Warning:  ini_set(): Cannot find save handler 'memcached' in /var/www/html/index.php on line 2" while reading response header from upstream, client: 172.26.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.26.0.2:9000", host: "localhost:8080"
+2022/09/27 11:46:05 [error] 33#33: *72 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:50:11 [error] 33#33: *87 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:50:12 [error] 33#33: *87 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:53:50 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/09/27 11:53:50 [notice] 31#31: gracefully shutting down
+2022/09/27 11:53:50 [notice] 31#31: exiting
+2022/09/27 11:53:50 [notice] 32#32: gracefully shutting down
+2022/09/27 11:53:50 [notice] 34#34: gracefully shutting down
+2022/09/27 11:53:50 [notice] 33#33: gracefully shutting down
+2022/09/27 11:53:50 [notice] 31#31: exit
+2022/09/27 11:53:50 [notice] 32#32: exiting
+2022/09/27 11:53:50 [notice] 34#34: exiting
+2022/09/27 11:53:50 [notice] 33#33: exiting
+2022/09/27 11:53:50 [notice] 32#32: exit
+2022/09/27 11:53:50 [notice] 34#34: exit
+2022/09/27 11:53:50 [notice] 33#33: exit
+2022/09/27 11:53:50 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/09/27 11:53:50 [notice] 1#1: worker process 31 exited with code 0
+2022/09/27 11:53:50 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/27 11:53:50 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/09/27 11:53:50 [notice] 1#1: worker process 34 exited with code 0
+2022/09/27 11:53:50 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/27 11:53:50 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/09/27 11:53:50 [notice] 1#1: worker process 32 exited with code 0
+2022/09/27 11:53:50 [notice] 1#1: worker process 33 exited with code 0
+2022/09/27 11:53:50 [notice] 1#1: exit
+2022/09/27 11:55:50 [notice] 1#1: using the "epoll" event method
+2022/09/27 11:55:50 [notice] 1#1: nginx/1.23.1
+2022/09/27 11:55:50 [notice] 1#1: built by gcc 11.2.1 20220219 (Alpine 11.2.1_git20220219) 
+2022/09/27 11:55:50 [notice] 1#1: OS: Linux 5.10.124-linuxkit
+2022/09/27 11:55:50 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/09/27 11:55:50 [notice] 1#1: start worker processes
+2022/09/27 11:55:50 [notice] 1#1: start worker process 31
+2022/09/27 11:55:50 [notice] 1#1: start worker process 32
+2022/09/27 11:55:50 [notice] 1#1: start worker process 33
+2022/09/27 11:55:50 [notice] 1#1: start worker process 34
+2022/09/27 11:59:33 [error] 33#33: *5 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.27.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 11:59:35 [error] 33#33: *5 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.27.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 12:00:29 [error] 33#33: *5 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.27.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 12:00:29 [error] 33#33: *5 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.27.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 12:00:29 [error] 33#33: *5 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.27.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 12:00:30 [error] 33#33: *5 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.27.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 12:00:30 [error] 33#33: *5 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.27.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 12:05:38 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/09/27 12:05:38 [notice] 31#31: gracefully shutting down
+2022/09/27 12:05:38 [notice] 32#32: gracefully shutting down
+2022/09/27 12:05:38 [notice] 34#34: gracefully shutting down
+2022/09/27 12:05:38 [notice] 33#33: gracefully shutting down
+2022/09/27 12:05:38 [notice] 31#31: exiting
+2022/09/27 12:05:38 [notice] 32#32: exiting
+2022/09/27 12:05:38 [notice] 32#32: exit
+2022/09/27 12:05:38 [notice] 34#34: exiting
+2022/09/27 12:05:38 [notice] 33#33: exiting
+2022/09/27 12:05:38 [notice] 31#31: exit
+2022/09/27 12:05:38 [notice] 34#34: exit
+2022/09/27 12:05:38 [notice] 33#33: exit
+2022/09/27 12:05:38 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/09/27 12:05:38 [notice] 1#1: worker process 32 exited with code 0
+2022/09/27 12:05:38 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/27 12:05:38 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/09/27 12:05:38 [notice] 1#1: worker process 31 exited with code 0
+2022/09/27 12:05:38 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/27 12:05:38 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/09/27 12:05:38 [notice] 1#1: worker process 33 exited with code 0
+2022/09/27 12:05:38 [notice] 1#1: worker process 34 exited with code 0
+2022/09/27 12:05:38 [notice] 1#1: exit
+2022/09/27 23:11:40 [notice] 1#1: using the "epoll" event method
+2022/09/27 23:11:40 [notice] 1#1: nginx/1.23.1
+2022/09/27 23:11:40 [notice] 1#1: built by gcc 11.2.1 20220219 (Alpine 11.2.1_git20220219) 
+2022/09/27 23:11:40 [notice] 1#1: OS: Linux 5.10.124-linuxkit
+2022/09/27 23:11:40 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/09/27 23:11:40 [notice] 1#1: start worker processes
+2022/09/27 23:11:40 [notice] 1#1: start worker process 30
+2022/09/27 23:11:40 [notice] 1#1: start worker process 31
+2022/09/27 23:11:40 [notice] 1#1: start worker process 32
+2022/09/27 23:11:40 [notice] 1#1: start worker process 33
+2022/09/27 23:21:56 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/09/27 23:21:56 [notice] 33#33: gracefully shutting down
+2022/09/27 23:21:56 [notice] 33#33: exiting
+2022/09/27 23:21:56 [notice] 30#30: gracefully shutting down
+2022/09/27 23:21:56 [notice] 32#32: gracefully shutting down
+2022/09/27 23:21:56 [notice] 31#31: gracefully shutting down
+2022/09/27 23:21:56 [notice] 31#31: exiting
+2022/09/27 23:21:56 [notice] 33#33: exit
+2022/09/27 23:21:56 [notice] 32#32: exiting
+2022/09/27 23:21:56 [notice] 31#31: exit
+2022/09/27 23:21:56 [notice] 32#32: exit
+2022/09/27 23:21:56 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/09/27 23:21:56 [notice] 1#1: worker process 33 exited with code 0
+2022/09/27 23:21:56 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/09/27 23:21:56 [notice] 1#1: worker process 31 exited with code 0
+2022/09/27 23:21:56 [notice] 1#1: worker process 32 exited with code 0
+2022/09/27 23:21:56 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/09/27 23:21:56 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/27 23:21:56 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/27 23:21:57 [notice] 30#30: exiting
+2022/09/27 23:21:57 [notice] 30#30: exit
+2022/09/27 23:21:57 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2022/09/27 23:21:57 [notice] 1#1: worker process 30 exited with code 0
+2022/09/27 23:21:57 [notice] 1#1: exit
+2022/09/27 23:22:10 [notice] 1#1: using the "epoll" event method
+2022/09/27 23:22:10 [notice] 1#1: nginx/1.23.1
+2022/09/27 23:22:10 [notice] 1#1: built by gcc 11.2.1 20220219 (Alpine 11.2.1_git20220219) 
+2022/09/27 23:22:10 [notice] 1#1: OS: Linux 5.10.124-linuxkit
+2022/09/27 23:22:10 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/09/27 23:22:10 [notice] 1#1: start worker processes
+2022/09/27 23:22:10 [notice] 1#1: start worker process 31
+2022/09/27 23:22:10 [notice] 1#1: start worker process 32
+2022/09/27 23:22:10 [notice] 1#1: start worker process 33
+2022/09/27 23:22:10 [notice] 1#1: start worker process 34
+2022/09/27 23:23:04 [error] 31#31: *2 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.28.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 23:25:30 [error] 33#33: *5 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.28.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 23:25:32 [error] 33#33: *5 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.28.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 23:25:33 [error] 33#33: *5 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.28.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 23:25:45 [error] 33#33: *5 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.28.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 23:25:45 [error] 33#33: *5 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.28.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 23:25:45 [error] 33#33: *5 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.28.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 23:25:45 [error] 33#33: *5 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.28.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 23:26:06 [error] 33#33: *5 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.28.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 23:26:07 [error] 33#33: *5 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.28.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 23:27:34 [error] 31#31: *16 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.28.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 23:27:35 [error] 31#31: *16 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.28.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 23:27:35 [error] 31#31: *16 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.28.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/27 23:36:47 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/09/27 23:36:47 [notice] 31#31: gracefully shutting down
+2022/09/27 23:36:47 [notice] 32#32: gracefully shutting down
+2022/09/27 23:36:47 [notice] 34#34: gracefully shutting down
+2022/09/27 23:36:47 [notice] 33#33: gracefully shutting down
+2022/09/27 23:36:47 [notice] 33#33: exiting
+2022/09/27 23:36:47 [notice] 31#31: exiting
+2022/09/27 23:36:47 [notice] 32#32: exiting
+2022/09/27 23:36:47 [notice] 32#32: exit
+2022/09/27 23:36:47 [notice] 34#34: exiting
+2022/09/27 23:36:47 [notice] 34#34: exit
+2022/09/27 23:36:47 [notice] 33#33: exit
+2022/09/27 23:36:47 [notice] 31#31: exit
+2022/09/27 23:36:47 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/09/27 23:36:47 [notice] 1#1: worker process 32 exited with code 0
+2022/09/27 23:36:47 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/27 23:36:47 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/09/27 23:36:47 [notice] 1#1: worker process 33 exited with code 0
+2022/09/27 23:36:47 [notice] 1#1: worker process 34 exited with code 0
+2022/09/27 23:36:47 [notice] 1#1: worker process 31 exited with code 0
+2022/09/27 23:36:47 [notice] 1#1: exit
+2022/09/27 23:37:21 [notice] 1#1: using the "epoll" event method
+2022/09/27 23:37:21 [notice] 1#1: nginx/1.23.1
+2022/09/27 23:37:21 [notice] 1#1: built by gcc 11.2.1 20220219 (Alpine 11.2.1_git20220219) 
+2022/09/27 23:37:21 [notice] 1#1: OS: Linux 5.10.124-linuxkit
+2022/09/27 23:37:21 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/09/27 23:37:21 [notice] 1#1: start worker processes
+2022/09/27 23:37:21 [notice] 1#1: start worker process 31
+2022/09/27 23:37:21 [notice] 1#1: start worker process 32
+2022/09/27 23:37:21 [notice] 1#1: start worker process 33
+2022/09/27 23:37:21 [notice] 1#1: start worker process 34
+2022/09/27 23:37:31 [error] 32#32: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.29.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.29.0.3:9000", host: "localhost:8080"
+2022/09/27 23:37:32 [error] 32#32: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.29.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.29.0.3:9000", host: "localhost:8080"
+2022/09/27 23:37:41 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/09/27 23:37:41 [notice] 31#31: gracefully shutting down
+2022/09/27 23:37:41 [notice] 33#33: gracefully shutting down
+2022/09/27 23:37:41 [notice] 34#34: gracefully shutting down
+2022/09/27 23:37:41 [notice] 34#34: exiting
+2022/09/27 23:37:41 [notice] 32#32: gracefully shutting down
+2022/09/27 23:37:41 [notice] 31#31: exiting
+2022/09/27 23:37:41 [notice] 33#33: exiting
+2022/09/27 23:37:41 [notice] 33#33: exit
+2022/09/27 23:37:41 [notice] 34#34: exit
+2022/09/27 23:37:41 [notice] 31#31: exit
+2022/09/27 23:37:41 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/09/27 23:37:41 [notice] 1#1: worker process 33 exited with code 0
+2022/09/27 23:37:41 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/27 23:37:41 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/09/27 23:37:41 [notice] 1#1: worker process 31 exited with code 0
+2022/09/27 23:37:41 [notice] 1#1: worker process 34 exited with code 0
+2022/09/27 23:37:41 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/27 23:37:41 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/09/27 23:37:59 [notice] 1#1: using the "epoll" event method
+2022/09/27 23:37:59 [notice] 1#1: nginx/1.23.1
+2022/09/27 23:37:59 [notice] 1#1: built by gcc 11.2.1 20220219 (Alpine 11.2.1_git20220219) 
+2022/09/27 23:37:59 [notice] 1#1: OS: Linux 5.10.124-linuxkit
+2022/09/27 23:37:59 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/09/27 23:37:59 [notice] 1#1: start worker processes
+2022/09/27 23:37:59 [notice] 1#1: start worker process 32
+2022/09/27 23:37:59 [notice] 1#1: start worker process 33
+2022/09/27 23:37:59 [notice] 1#1: start worker process 34
+2022/09/27 23:37:59 [notice] 1#1: start worker process 35
+2022/09/27 23:38:01 [error] 33#33: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.30.0.2:9000", host: "localhost:8080"
+2022/09/27 23:38:02 [error] 33#33: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.30.0.2:9000", host: "localhost:8080"
+2022/09/27 23:38:05 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/09/27 23:38:05 [notice] 32#32: gracefully shutting down
+2022/09/27 23:38:05 [notice] 32#32: exiting
+2022/09/27 23:38:05 [notice] 33#33: gracefully shutting down
+2022/09/27 23:38:05 [notice] 35#35: gracefully shutting down
+2022/09/27 23:38:05 [notice] 35#35: exiting
+2022/09/27 23:38:05 [notice] 34#34: gracefully shutting down
+2022/09/27 23:38:05 [notice] 32#32: exit
+2022/09/27 23:38:05 [notice] 35#35: exit
+2022/09/27 23:38:05 [notice] 34#34: exiting
+2022/09/27 23:38:05 [notice] 34#34: exit
+2022/09/27 23:38:05 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2022/09/27 23:38:05 [notice] 1#1: worker process 35 exited with code 0
+2022/09/27 23:38:05 [notice] 1#1: worker process 32 exited with code 0
+2022/09/27 23:38:05 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/27 23:38:05 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/09/27 23:38:05 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/09/27 23:38:05 [notice] 1#1: worker process 34 exited with code 0
+2022/09/27 23:38:05 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/27 23:38:19 [notice] 1#1: using the "epoll" event method
+2022/09/27 23:38:19 [notice] 1#1: nginx/1.23.1
+2022/09/27 23:38:19 [notice] 1#1: built by gcc 11.2.1 20220219 (Alpine 11.2.1_git20220219) 
+2022/09/27 23:38:19 [notice] 1#1: OS: Linux 5.10.124-linuxkit
+2022/09/27 23:38:19 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/09/27 23:38:19 [notice] 1#1: start worker processes
+2022/09/27 23:38:19 [notice] 1#1: start worker process 31
+2022/09/27 23:38:19 [notice] 1#1: start worker process 32
+2022/09/27 23:38:19 [notice] 1#1: start worker process 33
+2022/09/27 23:38:19 [notice] 1#1: start worker process 34
+2022/09/27 23:38:42 [error] 32#32: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.31.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.31.0.2:9000", host: "localhost:8080"
+2022/09/27 23:38:43 [error] 32#32: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.31.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.31.0.2:9000", host: "localhost:8080"
+2022/09/27 23:39:15 [error] 32#32: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.31.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.31.0.2:9000", host: "localhost:8080"
+2022/09/27 23:39:16 [error] 32#32: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.31.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.31.0.2:9000", host: "localhost:8080"
+2022/09/27 23:39:16 [error] 32#32: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.31.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.31.0.2:9000", host: "localhost:8080"
+2022/09/27 23:39:18 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/09/27 23:39:18 [notice] 31#31: gracefully shutting down
+2022/09/27 23:39:18 [notice] 33#33: gracefully shutting down
+2022/09/27 23:39:18 [notice] 34#34: gracefully shutting down
+2022/09/27 23:39:18 [notice] 34#34: exiting
+2022/09/27 23:39:18 [notice] 32#32: gracefully shutting down
+2022/09/27 23:39:18 [notice] 34#34: exit
+2022/09/27 23:39:18 [notice] 33#33: exiting
+2022/09/27 23:39:18 [notice] 33#33: exit
+2022/09/27 23:39:18 [notice] 32#32: exiting
+2022/09/27 23:39:18 [notice] 32#32: exit
+2022/09/27 23:39:18 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/09/27 23:39:18 [notice] 1#1: worker process 34 exited with code 0
+2022/09/27 23:39:18 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/27 23:39:18 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/09/27 23:39:18 [notice] 1#1: worker process 33 exited with code 0
+2022/09/27 23:39:18 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/27 23:39:18 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/09/27 23:39:18 [notice] 1#1: worker process 32 exited with code 0
+2022/09/27 23:39:18 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/27 23:52:15 [notice] 1#1: using the "epoll" event method
+2022/09/27 23:52:15 [notice] 1#1: nginx/1.23.1
+2022/09/27 23:52:15 [notice] 1#1: built by gcc 11.2.1 20220219 (Alpine 11.2.1_git20220219) 
+2022/09/27 23:52:15 [notice] 1#1: OS: Linux 5.10.124-linuxkit
+2022/09/27 23:52:15 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/09/27 23:52:15 [notice] 1#1: start worker processes
+2022/09/27 23:52:15 [notice] 1#1: start worker process 31
+2022/09/27 23:52:15 [notice] 1#1: start worker process 32
+2022/09/27 23:52:15 [notice] 1#1: start worker process 33
+2022/09/27 23:52:15 [notice] 1#1: start worker process 34
+2022/09/27 23:59:00 [error] 32#32: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.31.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.31.0.3:9000", host: "localhost:8080"
+2022/09/28 00:01:00 [error] 31#31: *5 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/28 00:01:02 [error] 31#31: *5 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/28 00:01:02 [error] 31#31: *5 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/28 00:01:02 [error] 31#31: *5 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/28 00:01:03 [error] 31#31: *5 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/28 00:01:05 [error] 31#31: *5 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/28 00:01:05 [error] 31#31: *5 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/28 00:01:05 [error] 31#31: *5 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/28 00:01:06 [error] 31#31: *5 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/28 00:01:06 [error] 31#31: *5 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/28 00:01:06 [error] 31#31: *5 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/28 00:01:06 [error] 31#31: *5 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/28 00:01:06 [error] 31#31: *5 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/28 00:01:06 [error] 31#31: *5 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/28 00:01:07 [error] 31#31: *5 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/28 00:01:07 [error] 31#31: *5 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/28 00:03:03 [error] 34#34: *24 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/28 00:03:03 [error] 34#34: *24 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/28 00:03:03 [error] 34#34: *24 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/28 00:03:04 [error] 34#34: *24 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/28 00:07:55 [error] 32#32: *30 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/28 00:07:55 [error] 32#32: *30 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/28 00:07:56 [error] 32#32: *30 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/28 00:09:34 [notice] 47#47: signal process started
+2022/09/28 00:09:34 [notice] 1#1: signal 1 (SIGHUP) received from 47, reconfiguring
+2022/09/28 00:09:34 [notice] 1#1: reconfiguring
+2022/09/28 00:09:34 [notice] 1#1: using the "epoll" event method
+2022/09/28 00:09:34 [notice] 1#1: start worker processes
+2022/09/28 00:09:34 [notice] 1#1: start worker process 48
+2022/09/28 00:09:34 [notice] 1#1: start worker process 49
+2022/09/28 00:09:34 [notice] 1#1: start worker process 50
+2022/09/28 00:09:34 [notice] 1#1: start worker process 51
+2022/09/28 00:09:34 [notice] 32#32: gracefully shutting down
+2022/09/28 00:09:34 [notice] 33#33: gracefully shutting down
+2022/09/28 00:09:34 [notice] 31#31: gracefully shutting down
+2022/09/28 00:09:34 [notice] 31#31: exiting
+2022/09/28 00:09:34 [notice] 34#34: gracefully shutting down
+2022/09/28 00:09:34 [notice] 32#32: exiting
+2022/09/28 00:09:34 [notice] 33#33: exiting
+2022/09/28 00:09:34 [notice] 33#33: exit
+2022/09/28 00:09:34 [notice] 31#31: exit
+2022/09/28 00:09:34 [notice] 34#34: exiting
+2022/09/28 00:09:34 [notice] 34#34: exit
+2022/09/28 00:09:34 [notice] 32#32: exit
+2022/09/28 00:09:34 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/09/28 00:09:34 [notice] 1#1: worker process 33 exited with code 0
+2022/09/28 00:09:34 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/28 00:09:34 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/09/28 00:09:34 [notice] 1#1: worker process 31 exited with code 0
+2022/09/28 00:09:34 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/28 00:09:34 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/09/28 00:09:34 [notice] 1#1: worker process 34 exited with code 0
+2022/09/28 00:09:34 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/28 00:09:34 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/09/28 00:09:34 [notice] 1#1: worker process 32 exited with code 0
+2022/09/28 00:09:34 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/28 00:09:37 [error] 49#49: *39 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/28 00:09:38 [error] 49#49: *39 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/28 00:09:38 [error] 49#49: *39 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/28 00:09:39 [error] 49#49: *39 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/28 00:09:39 [error] 49#49: *39 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/28 00:09:39 [error] 49#49: *39 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/28 00:09:39 [error] 49#49: *39 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/28 00:09:40 [error] 49#49: *39 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/28 00:10:55 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/09/28 00:10:55 [notice] 49#49: gracefully shutting down
+2022/09/28 00:10:55 [notice] 49#49: exiting
+2022/09/28 00:10:55 [notice] 48#48: gracefully shutting down
+2022/09/28 00:10:55 [notice] 50#50: gracefully shutting down
+2022/09/28 00:10:55 [notice] 51#51: gracefully shutting down
+2022/09/28 00:10:55 [notice] 49#49: exit
+2022/09/28 00:10:55 [notice] 48#48: exiting
+2022/09/28 00:10:55 [notice] 50#50: exiting
+2022/09/28 00:10:55 [notice] 51#51: exiting
+2022/09/28 00:10:55 [notice] 48#48: exit
+2022/09/28 00:10:55 [notice] 50#50: exit
+2022/09/28 00:10:55 [notice] 51#51: exit
+2022/09/28 00:10:55 [notice] 1#1: signal 17 (SIGCHLD) received from 50
+2022/09/28 00:10:55 [notice] 1#1: worker process 50 exited with code 0
+2022/09/28 00:10:55 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/28 00:10:55 [notice] 1#1: signal 17 (SIGCHLD) received from 48
+2022/09/28 00:10:55 [notice] 1#1: worker process 48 exited with code 0
+2022/09/28 00:10:55 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/28 00:10:55 [notice] 1#1: signal 17 (SIGCHLD) received from 49
+2022/09/28 00:10:55 [notice] 1#1: worker process 49 exited with code 0
+2022/09/28 00:10:55 [notice] 1#1: worker process 51 exited with code 0
+2022/09/28 00:10:55 [notice] 1#1: exit
+2022/09/28 00:11:57 [notice] 1#1: using the "epoll" event method
+2022/09/28 00:11:57 [notice] 1#1: nginx/1.23.1
+2022/09/28 00:11:57 [notice] 1#1: built by gcc 11.2.1 20220219 (Alpine 11.2.1_git20220219) 
+2022/09/28 00:11:57 [notice] 1#1: OS: Linux 5.10.124-linuxkit
+2022/09/28 00:11:57 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/09/28 00:11:57 [notice] 1#1: start worker processes
+2022/09/28 00:11:57 [notice] 1#1: start worker process 31
+2022/09/28 00:11:57 [notice] 1#1: start worker process 32
+2022/09/28 00:11:57 [notice] 1#1: start worker process 33
+2022/09/28 00:11:57 [notice] 1#1: start worker process 34
+2022/09/28 00:12:28 [error] 32#32: *2 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 192.168.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/28 00:12:33 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/09/28 00:12:33 [notice] 33#33: gracefully shutting down
+2022/09/28 00:12:33 [notice] 31#31: gracefully shutting down
+2022/09/28 00:12:33 [notice] 31#31: exiting
+2022/09/28 00:12:33 [notice] 32#32: gracefully shutting down
+2022/09/28 00:12:33 [notice] 34#34: gracefully shutting down
+2022/09/28 00:12:33 [notice] 34#34: exiting
+2022/09/28 00:12:33 [notice] 33#33: exiting
+2022/09/28 00:12:33 [notice] 31#31: exit
+2022/09/28 00:12:33 [notice] 34#34: exit
+2022/09/28 00:12:33 [notice] 33#33: exit
+2022/09/28 00:12:33 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/09/28 00:12:33 [notice] 1#1: worker process 31 exited with code 0
+2022/09/28 00:12:33 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/28 00:12:33 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/09/28 00:12:33 [notice] 1#1: worker process 34 exited with code 0
+2022/09/28 00:12:33 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/28 00:12:33 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/09/28 00:12:33 [notice] 1#1: worker process 33 exited with code 0
+2022/09/28 00:12:33 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/28 00:12:48 [notice] 1#1: using the "epoll" event method
+2022/09/28 00:12:48 [notice] 1#1: nginx/1.23.1
+2022/09/28 00:12:48 [notice] 1#1: built by gcc 11.2.1 20220219 (Alpine 11.2.1_git20220219) 
+2022/09/28 00:12:48 [notice] 1#1: OS: Linux 5.10.124-linuxkit
+2022/09/28 00:12:48 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/09/28 00:12:48 [notice] 1#1: start worker processes
+2022/09/28 00:12:48 [notice] 1#1: start worker process 31
+2022/09/28 00:12:48 [notice] 1#1: start worker process 32
+2022/09/28 00:12:48 [notice] 1#1: start worker process 33
+2022/09/28 00:12:48 [notice] 1#1: start worker process 34
+2022/09/28 00:14:13 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/09/28 00:14:13 [notice] 31#31: gracefully shutting down
+2022/09/28 00:14:13 [notice] 32#32: gracefully shutting down
+2022/09/28 00:14:13 [notice] 33#33: gracefully shutting down
+2022/09/28 00:14:13 [notice] 34#34: gracefully shutting down
+2022/09/28 00:14:13 [notice] 31#31: exiting
+2022/09/28 00:14:13 [notice] 32#32: exiting
+2022/09/28 00:14:13 [notice] 33#33: exiting
+2022/09/28 00:14:13 [notice] 33#33: exit
+2022/09/28 00:14:13 [notice] 34#34: exiting
+2022/09/28 00:14:13 [notice] 34#34: exit
+2022/09/28 00:14:13 [notice] 31#31: exit
+2022/09/28 00:14:13 [notice] 32#32: exit
+2022/09/28 00:14:13 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/09/28 00:14:13 [notice] 1#1: worker process 34 exited with code 0
+2022/09/28 00:14:13 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/28 00:14:13 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/09/28 00:14:13 [notice] 1#1: worker process 33 exited with code 0
+2022/09/28 00:14:13 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/28 00:14:13 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/09/28 00:14:13 [notice] 1#1: worker process 31 exited with code 0
+2022/09/28 00:14:13 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/09/28 00:14:13 [notice] 1#1: worker process 32 exited with code 0
+2022/09/28 00:14:13 [notice] 1#1: exit
+2022/09/28 00:15:38 [notice] 1#1: using the "epoll" event method
+2022/09/28 00:15:38 [notice] 1#1: nginx/1.23.1
+2022/09/28 00:15:38 [notice] 1#1: built by gcc 11.2.1 20220219 (Alpine 11.2.1_git20220219) 
+2022/09/28 00:15:38 [notice] 1#1: OS: Linux 5.10.124-linuxkit
+2022/09/28 00:15:38 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/09/28 00:15:38 [notice] 1#1: start worker processes
+2022/09/28 00:15:38 [notice] 1#1: start worker process 31
+2022/09/28 00:15:38 [notice] 1#1: start worker process 32
+2022/09/28 00:15:38 [notice] 1#1: start worker process 33
+2022/09/28 00:15:38 [notice] 1#1: start worker process 34
+2022/09/28 00:16:29 [error] 31#31: *1 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 192.168.32.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/28 00:16:29 [error] 31#31: *1 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 192.168.32.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/28 00:16:29 [error] 31#31: *1 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 192.168.32.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/09/28 00:16:30 [error] 31#31: *1 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 192.168.32.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
